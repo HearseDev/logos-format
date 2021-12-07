@@ -50,7 +50,7 @@ For now this is just a method for testing <br>
 - You need to have the logos extension by aarnav installed
 
 
-- install External formatters from the marketplace
+- Install External formatters from the marketplace
 https://marketplace.visualstudio.com/items?itemName=SteefH.external-formatters
 
 - Add this code to your settings.json
