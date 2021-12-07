@@ -8,7 +8,7 @@
 #include <vector>
 using namespace std;
 
-// a tpyical formatter will read the contents of the file from stdin
+// a typical formatter will read the contents of the file from stdin
 // and then format and spit out the formatted contents to stdout
 int main(int argc, const char **argv) {
   string currentLine;      // currentLine of the contents
