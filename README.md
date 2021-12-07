@@ -1,5 +1,5 @@
 # logos-format
-Currently under testing phase
+Currently under testing phase, will be rewritten in python
 
 - This uses clang-format to format logos files, therefore you can pass in any argument you would normally pass to clang-format
 
@@ -53,7 +53,7 @@ For now this is just a method for testing <br>
 - install External formatters from the marketplace
 https://marketplace.visualstudio.com/items?itemName=SteefH.external-formatters
 
-- add this code to your settings.json
+- Add this code to your settings.json
 ```
 "externalFormatters.languages": {
     "logos": {
@@ -72,7 +72,7 @@ https://marketplace.visualstudio.com/items?itemName=SteefH.external-formatters
 
 - Install this plugin https://github.com/mhartington/formatter.nvim
 
-- add this to your init.vim
+- Add this to your init.vim
 ```
 autocmd BufNewFile,BufRead *.xm,*.x :set filetype=logos
 nnoremap <silent> <space>f :Format<CR>
