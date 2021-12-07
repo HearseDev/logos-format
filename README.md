@@ -103,4 +103,5 @@ EOF
 - Now you can format the file using your keybind, in this case, using space + f
   
 <h3>To use with others</h3>
-Logos-format works with any text editor that allows the use of external formatters. This is because logos-format works like any traditional formatter, it reads input from stdin and spits out formatted code to stdout. Just look up how to set up an external formatter for your text editor. I will be adding popular options here once i have finished testing.
+
+- Logos-format works with any text editor that allows the use of external formatters. This is because logos-format works like any traditional formatter, it reads input from stdin and spits out formatted code to stdout. Just look up how to set up an external formatter for your text editor. I will be adding popular options here once i have finished testing.
