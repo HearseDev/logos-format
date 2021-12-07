@@ -1,5 +1,5 @@
 # logos-format
-Currently under testing phase, will be rewritten in python
+Currently under testing phase
 
 - This uses clang-format to format logos files, therefore you can pass in any argument you would normally pass to clang-format
 
@@ -32,16 +32,20 @@ On Macs:
     ```
     brew install clang-format
     ```
- - Clone this repository and compile <br>
-`git clone https://github.com/HearseDev/logos-format` <br>
-`cd logos-format` <br>
-`make`
+- python3 is required to be installed on your machine <br>
+On Macs: 
+
+    ```
+    brew install python
+    ```
+ - Download logos-format.py and place in desired directory <br>
+`curl -JLO https://github.com/HearseDev/logos-format/raw/main/logos-format.py` <br>
 
 
 <h3>To use it with CLI</h3>
 
 ```
-./logos-format < /path/to/Tweak.xm
+python3 /path/to/logos-format.py --assume-filename objc < /path/to/Tweak.xm
 ```
 
 <h3>To use it with VSCode</h3>
@@ -57,8 +61,9 @@ https://marketplace.visualstudio.com/items?itemName=SteefH.external-formatters
 ```
 "externalFormatters.languages": {
     "logos": {
-        "command": "/path/to/logos-format/logos-format",
+        "command": "python3",
         "arguments": [
+            "/path/to/logos-format.py",
             "--assume-filename",
             "objc",
         ]
@@ -84,8 +89,8 @@ require('formatter').setup {
       function()
         return {
           --change this
-          exe = '/path/to/logos-format/logos-format',
-          args = {"--assume-filename", "objc"},
+          exe = 'python3',
+          args = {"/path/to/logos-format.py","--assume-filename", "objc"},
           stdin = true,
           cwd = vim.fn.expand '%:p:h',  -- Run clang-format in cwd of the file.
         }
