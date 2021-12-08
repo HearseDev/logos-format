@@ -6,7 +6,7 @@ Before:
 ![image](https://user-images.githubusercontent.com/28695977/145279771-8631da6e-179a-4d19-bf1e-ed1fce304ffe.png)
 
 
-After:
+After(BasedOnStyle: Chromium):
 
 ![image](https://user-images.githubusercontent.com/28695977/145279821-8dba8eee-0b7c-46c9-8ebf-3df6881e568a.png)
 
