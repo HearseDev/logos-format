@@ -1,9 +1,5 @@
 BasedOnStyle: Chromium
-
 Language: ObjC 
-AlignTrailingComments: true
-AllowShortIfStatementsOnASingleLine: false
 IndentWidth: 4
 TabWidth: 4
 UseTab: Never
-ContinuationIndentWidth: 0
