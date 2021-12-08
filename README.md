@@ -2,20 +2,13 @@
 Currently under testing phase
 
 - This uses clang-format to format logos files, therefore you can pass in any argument you would normally pass to clang-format
-
-- This requires a .clang-format file to be present in your current project directory, clang-format will automatically find the clang-format file if it is present in your project structure.
-
-- To work correctly, it also requires the following option to be set to 0 in your .clang-format file <br>
-      ```
-      ContinuationIndentWidth: 0
-      ```
-
-An example .clang-format file would look something like this, I picked the style chromium because of their extensive docs
-
+- You do not need a .clang-format file, although clang-format will look through your project directory structure to see if you do have one present.
+- An example .clang-format file would look something like this, I picked the style chromium because of their extensive docs
+- You can also use the .clang-format file provided in this project as a starting point.
 
 ```
 BasedOnStyle: Chromium
-ContinuationIndentWidth: 0
+...
 ```
 
 
@@ -105,3 +98,7 @@ EOF
 <h3>To use with others</h3>
 
 - Logos-format works with any text editor that allows the use of external formatters. This is because logos-format works like any traditional formatter, it reads input from stdin and spits out formatted code to stdout. Just look up how to set up an external formatter for your text editor. I will be adding popular options here once i have finished testing.
+
+<h3>Special Thanks</h3>
+
+- uroboro for his immense help
