@@ -1,10 +1,13 @@
 # logos-format
-Currently under testing phase
+<p>logos-format is a project that allows for logos to be formatted with the help of clang-format</p>
+<h2>Features</h2>
 
-- This uses clang-format to format logos files, therefore you can pass in any argument you would normally pass to clang-format
+- Uses clang-format to format, therefore performs exactly like it. 
+- You can also specify arguments to be passed to clang-format.
+- Check out https://clang.llvm.org/docs/ClangFormatStyleOptions.html for possible options.
+- There is an example .clang-format file provided in this project as a starting point.
 - You do not need a .clang-format file, although clang-format will look through your project directory structure to see if you do have one present.
 - An example .clang-format file would look something like this, I picked the style chromium because of their extensive docs
-- You can also use the .clang-format file provided in this project as a starting point.
 
 ```
 BasedOnStyle: Chromium
