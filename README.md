@@ -1,5 +1,17 @@
 # logos-format
 <p>logos-format is a project that allows for logos to be formatted with the help of clang-format</p>
+
+Before:
+
+![image](https://user-images.githubusercontent.com/28695977/145278982-b0340f23-7501-4d30-9fc1-2f69f72c5409.png)
+
+
+After:
+
+![image](https://user-images.githubusercontent.com/28695977/145279065-c02401b7-bd4b-42d1-9d47-1db637909d3a.png)
+
+
+
 <h2>Features</h2>
 
 - Uses clang-format to format, therefore performs exactly like it. 
