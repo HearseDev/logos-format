@@ -27,7 +27,7 @@ filterList = [
     "%config",
     "%hookf",
     "%ctor",
-    "%dcor",
+    "%dctor",
     "%init",
     "%c",
     "%orig",
