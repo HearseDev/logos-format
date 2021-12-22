@@ -57,7 +57,7 @@ for line in refinedList:
     if "@logosformat" in line:
         fix = line.replace("@logosformat", "%")
         if any(token in fix for token in specialFilterList):
-            print(fix[:-1])
+            print(fix.replace(";",""))
         else:
             print(fix)
     else:
