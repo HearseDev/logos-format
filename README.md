@@ -60,6 +60,7 @@ python3 /path/to/logos-format.py --assume-filename objc < /path/to/Tweak.xm
 For now this is just a method for testing <br>
 
 - You need to have the logos extension by aarnav installed
+https://marketplace.visualstudio.com/items?itemName=tale.logos-vscode
 
 
 - Install External formatters from the marketplace
